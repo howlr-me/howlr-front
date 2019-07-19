@@ -1,0 +1,28 @@
+.menu {
+	background: var(--howlr-color-burgundy-fog);
+	padding: 32px 24px;
+	width: 240px;
+	border-right: 1px solid rgba(#714768, .08);
+}
+
+.menu h4:first-child {
+	margin-top: 0;
+}
+
+.menu ul {
+	list-style-type: none;
+	margin: 0 0 40px 0;
+	padding: 0 0 0 16px;
+}
+
+.menu ul li a {
+	color: var(--howlr-color-burgundy-strong);
+	font-size: 14px;
+	line-height: 24px;
+	margin-bottom: 8px;
+	text-transform: lowercase;
+	display: block;
+	&:hover {
+		color: var(--howlr-color-main);
+	}
+}

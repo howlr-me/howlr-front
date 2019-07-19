@@ -1,0 +1,57 @@
+// COLORS
+:root {
+	// Main
+	--howlr-color-main: #5E0FDD;
+	--howlr-color-mid: #667892;
+	--howlr-color-light: #C2C9D4;
+	--howlr-color-ghost: #E5E9EE;
+	--howlr-color-fog: #F4F7F9;
+
+	--howlr-color-burgundy: #2F1847;
+	--howlr-color-burgundy-strong: #714768;
+	--howlr-color-burgundy-light: #A0859B;
+	--howlr-color-burgundy-fog: #F7F6F9;
+}
+
+// HEADERS
+h4 {
+	font-size: 12px;
+	text-transform: uppercase;;
+	color: var(--howlr-color-burgundy-light);
+	font-weight: 600;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+	text-decoration: none;
+	transition: 0.4s;
+}
+
+*::placeholder {
+	color: var(--howlr-color-light);
+	transition: 0.4s;
+}
+*:focus::placeholder {
+	color: var(--howlr-color-ghost);
+}

@@ -1,12 +1,16 @@
 import React from 'react';
-import './App.scss';
+import './scss/global.scss';
+import style from './App.module.scss';
+import Header from './Header';
+import Menu from './Menu';
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        Howlr
-      </header>
+    <div className={style.App}>
+		<Header></Header>
+		<div className={style.content}>
+			<Menu></Menu>
+		</div>
     </div>
   );
 }

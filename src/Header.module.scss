@@ -1,0 +1,44 @@
+.header {
+	background: #FFFFFF;
+	box-shadow: 0 2px 8px 0 rgba(0,30,73,0.04), 0 1px 0 0 rgba(0,30,73,0.04);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 64px;
+	padding: 12px 24px;
+	z-index: 2;
+}
+
+.header a {
+	width: 216px;
+	display: inline-block;
+}
+
+.header form {
+	padding: 0 24px 0 32px;
+	margin: 0;
+	flex-grow: 2;
+	& legend {
+		display: none;
+	}
+	& label {
+
+	}
+	& label input {
+		line-height: 24px;
+		padding: 20px 0;
+		border: none;
+		font-size: 14px;
+		color: var(--howlr-color-burgundy);
+		margin-top: -12px;
+		width: 100%;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+.header .avatar {
+	flex-grow: 1;
+}
