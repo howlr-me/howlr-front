@@ -13,9 +13,34 @@
 	--howlr-color-burgundy-fog: #F7F6F9;
 }
 
+// FONTS
+@font-face {
+    font-family: "Grafier";
+    font-weight: normal;
+    font-style: normal;
+    src: url("./fonts/Grafier-RegularDisplay.otf") format("opentype");
+}
+
+@font-face {
+    font-family: "Grafier";
+    font-weight: bold;
+    font-style: normal;
+    src: url("./fonts/Grafier-BlackDisplay.otf") format("opentype");
+}
+
 // HEADERS
+h1 {
+	font-family: "Grafier";
+	font-size: 40px;
+	line-height: 48px;
+	color: var(--howlr-color-burgundy);
+	margin-top: 0;
+	text-transform: lowercase;
+}
+
 h4 {
 	font-size: 12px;
+	line-height: 24px;
 	text-transform: uppercase;;
 	color: var(--howlr-color-burgundy-light);
 	font-weight: 600;

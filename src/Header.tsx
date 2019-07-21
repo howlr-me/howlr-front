@@ -24,7 +24,7 @@ class Header extends React.Component {
 				<legend>Search anything</legend>
 				<label><input type="text" placeholder="Search anything..." /></label>
 			</form>
-			<Avatar></Avatar>
+			<Avatar>TP</Avatar>
 		</header>
     );
   }

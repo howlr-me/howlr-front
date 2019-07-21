@@ -8,9 +8,24 @@
 	flex-grow: 1;
 }
 
-.content {
+.container {
 	flex-grow: 2;
 	align-content: stretch;
 	display: flex;
 	justify-content: space-between;
+}
+
+.menu {
+	flex-grow: 1;
+}
+
+.content {
+	flex-grow: 2;
+	padding: 32px;
+}
+
+.sidebar {
+	flex-grow: 1;
+	max-width: 344px;
+	padding: 32px 24px 0 0;
 }
