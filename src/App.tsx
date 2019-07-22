@@ -5,19 +5,18 @@ import Header from './Header';
 import Menu from './Menu';
 
 const App: React.FC = () => {
-  return (
-    <div className={style.App}>
-		<Header></Header>
-		<div className={style.container}>
-			<Menu></Menu>
-			<div className={style.content}>
-				<h1>Wolfpack</h1>
-			</div>
-			<div className={style.sidebar}>
+	return (
+		<div className={style.App}>
+			<Header></Header>
+			<div className={style.container}>
+				<Menu></Menu>
+				<div className={style.content}>
+					<h1>Wolfpack</h1>
+				</div>
+				<div className={style.sidebar}></div>
 			</div>
 		</div>
-    </div>
-  );
-}
+	);
+};
 
 export default App;

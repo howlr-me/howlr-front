@@ -3,9 +3,7 @@ import style from './Avatar.module.scss';
 
 class Avatar extends React.Component {
 	render() {
-		return (
-			<div className={style.avatar}></div>
-		);
+		return <div className={style.avatar}></div>;
 	}
 }
 
