@@ -1,3 +1,6 @@
+[![CircleCI](https://circleci.com/gh/howlr-me/howlr-front.svg?style=svg)](https://circleci.com/gh/howlr-me/howlr-front)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/1b2df4207a1d4d34b6c5e77c52be60af)](https://www.codacy.com/app/howlr-me/howlr-front?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=howlr-me/howlr-front&amp;utm_campaign=Badge_Grade)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
