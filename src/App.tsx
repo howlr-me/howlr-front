@@ -20,8 +20,7 @@ const App: React.FC = () => {
 			<div className={style.sidebar}>
 			</div>
 		</div>
-    </div>
-  );
-}
+	);
+};
 
 export default App;
