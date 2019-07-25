@@ -3,6 +3,7 @@ import './scss/global.scss';
 import style from './App.module.scss';
 import Header from './Header';
 import Menu from './Menu';
+import TextField from './components/TextField/TextField';
 
 const App: React.FC = () => {
   return (
@@ -12,6 +13,8 @@ const App: React.FC = () => {
 			<Menu></Menu>
 			<div className={style.content}>
 				<h1>Wolfpack</h1>
+				<h4>New post</h4>
+				<TextField placeholder="that"></TextField>
 			</div>
 			<div className={style.sidebar}>
 			</div>
