@@ -1,6 +1,24 @@
 .authorContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+}
+
+.textInfo {
+	flex-grow: 2;
+	padding: 0 16px;
 }
 
 .authorName {
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	color: var(--howlr-color-main);
+}
+
+.metaInfo {
+	font-size: 12px;
+	line-height: 16px;
+	color: var(--howlr-color-light);
 	float: left;
 }

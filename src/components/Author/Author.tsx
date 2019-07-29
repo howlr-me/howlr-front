@@ -14,10 +14,12 @@ export function Author({ name, team, time, label }: AuthorProps) {
 	return (
 		<section className={style.authorContainer}>
 			<Avatar name={name}></Avatar>
-			<div className={style.authorName}>{name}</div>
-			<small className={style.metaInfo}>
-				{team} • {time}
-			</small>
+			<div className={style.textInfo}>
+				<div className={style.authorName}>{name}</div>
+				<small className={style.metaInfo}>
+					{team} • {time}
+				</small>
+			</div>
 			{label ? <Tag label={label}></Tag> : null}
 		</section>
 	);
