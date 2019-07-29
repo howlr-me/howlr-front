@@ -16,19 +16,21 @@ export interface TextFieldProps extends InputHTMLAttributes<HTMLInputElement> {
 export const TextField = React.forwardRef(
 	({ label, helpText, error, isFullWidth, ...rest }: TextFieldProps, ref: React.Ref<HTMLInputElement>) => {
 		return (
-			<label className={cn(style.wrapper, isFullWidth && style.isFullWidth)}>
-				{label && <div className={style.label}>{label}</div>}
-				<input
-					className={cn(style.input, {
-						[style.error]: !!error,
-					})}
-					ref={ref}
-					{...rest}
-				/>
-				{(error || helpText) && <div className={style.metaLabel}>{error || helpText}</div>}
-			</label>
+			<div>
+				<label className={cn(style.wrapper, isFullWidth && style.isFullWidth)}>
+					{label && <div className={style.label}>{label}</div>}
+					<input
+						className={cn(style.input, {
+							[style.error]: !!error
+						})}
+						ref={ref}
+						{...rest}
+					/>
+					{(error || helpText) && <div className={style.metaLabel}>{error || helpText}</div>}
+				</label>
+			</div>
 		);
-	},
+	}
 );
 
 TextField.displayName = 'TextField';

@@ -2,32 +2,33 @@
 :root {
 	// Main
 	--howlr-color-primary: #000000;
-	--howlr-color-main: #2F1847;
+	--howlr-color-main: #2f1847;
 	--howlr-color-strong: #714768;
-	--howlr-color-light: #A0859B;
-	--howlr-color-ghost: #D2C7D0;
-	--howlr-color-fog: #F7F6F9;
-	--howlr-color-white: #FFFFFF;
+	--howlr-color-light: #a0859b;
+	--howlr-color-ghost: #d2c7d0;
+	--howlr-color-soul: #ece8ed;
+	--howlr-color-fog: #f7f6f9;
+	--howlr-color-white: #ffffff;
 }
 
 // FONTS
 @font-face {
-    font-family: "Grafier";
-    font-weight: normal;
-    font-style: normal;
-    src: url("./fonts/Grafier-RegularDisplay.otf") format("opentype");
+	font-family: 'Grafier';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/Grafier-RegularDisplay.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Grafier";
-    font-weight: bold;
-    font-style: normal;
-    src: url("./fonts/Grafier-BlackDisplay.otf") format("opentype");
+	font-family: 'Grafier';
+	font-weight: bold;
+	font-style: normal;
+	src: url('./fonts/Grafier-BlackDisplay.otf') format('opentype');
 }
 
 // HEADERS
 h1 {
-	font-family: "Grafier";
+	font-family: 'Grafier';
 	font-size: 40px;
 	line-height: 48px;
 	color: var(--howlr-color-main);
@@ -38,32 +39,30 @@ h1 {
 h4 {
 	font-size: 12px;
 	line-height: 24px;
-	text-transform: uppercase;;
+	text-transform: uppercase;
 	color: var(--howlr-color-light);
 	font-weight: 600;
 	margin: 0 0 8px 0;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
+		'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
