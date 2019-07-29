@@ -1,22 +1,24 @@
 import React from 'react';
 import style from './Author.module.scss';
 import Avatar from '../Avatar/Avatar';
+import Tag from '../Tag/Tag';
 
 export interface AuthorProps {
-	src?: string;
 	name?: string;
 	team?: string;
 	time?: string;
+	label?: string;
 }
 
-const noop = () => {};
-
-export function Author({ src, name, team, time, ...rest }: AuthorProps) {
+export function Author({ name, team, time, label }: AuthorProps) {
 	return (
 		<section className={style.authorContainer}>
-			<Avatar name="Cesar"></Avatar>
-			<span className={style.authorName}>Cesar</span>
-			<small>Onboarding • 12 hours ago</small>
+			<Avatar name={name}></Avatar>
+			<div className={style.authorName}>{name}</div>
+			<small className={style.metaInfo}>
+				{team} • {time}
+			</small>
+			{label ? <Tag label={label}></Tag> : null}
 		</section>
 	);
 }

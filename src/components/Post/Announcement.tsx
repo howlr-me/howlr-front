@@ -6,7 +6,7 @@ class Announcement extends React.Component {
 	render() {
 		return (
 			<div className={style.announContainer}>
-				<Author name="Cesar"></Author>
+				<Author name="Cesar" team="Onboarding" time="12 hours ago" label="Official"></Author>
 			</div>
 		);
 	}
