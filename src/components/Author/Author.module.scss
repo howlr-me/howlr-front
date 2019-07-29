@@ -14,6 +14,14 @@
 	font-weight: 600;
 	line-height: 24px;
 	color: var(--howlr-color-main);
+
+	& a {
+		color: var(--howlr-color-main);
+
+		&:hover {
+			color: var(--howlr-color-primary);
+		}
+	}
 }
 
 .metaInfo {

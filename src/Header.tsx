@@ -31,7 +31,7 @@ class Header extends React.Component {
 						<input type="text" placeholder="Search anything..." />
 					</label>
 				</form>
-				<Avatar name="Cesar"></Avatar>
+				<Avatar name="Cesar" src="http://greatcesar.com/cesar-profile.jpg"></Avatar>
 			</header>
 		);
 	}

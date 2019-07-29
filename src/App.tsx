@@ -21,6 +21,7 @@ const App: React.FC = () => {
 					<Announcement
 						url="http://howlr.me"
 						author="Cesar"
+						authorURL="http://howlr.me/wolf/cesar-zeppini"
 						team="Onboarding"
 						time="12 hours ago"
 						label="Official"
