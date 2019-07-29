@@ -1,15 +1,34 @@
 import React from 'react';
+import TextTruncate from 'react-text-truncate';
 import style from './Announcement.module.scss';
 import Author from '../Author/Author';
 
-class Announcement extends React.Component {
-	render() {
-		return (
-			<div className={style.announContainer}>
-				<Author name="Cesar" team="Onboarding" time="12 hours ago" label="Official"></Author>
-			</div>
-		);
-	}
+export interface AnnouncementProps {
+	url?: string;
+	author?: string;
+	time?: string;
+	team?: string;
+	label?: string;
+	title?: string;
+	article?: string;
+}
+
+export function Announcement({ url, author, time, team, label, title, article }: AnnouncementProps) {
+	return (
+		<div className={style.announContainer}>
+			<Author name={author} team={team} time={time} label={label}></Author>
+			<h2>
+				<a href={url}>{title}</a>
+			</h2>
+			<TextTruncate
+				line={4}
+				element="p"
+				truncateText="…"
+				text={article}
+				textTruncateChild={<a href={url}>see more</a>}
+			/>
+		</div>
+	);
 }
 
 export default Announcement;

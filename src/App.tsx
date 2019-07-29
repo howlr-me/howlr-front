@@ -18,7 +18,15 @@ const App: React.FC = () => {
 						<h4>New post</h4>
 						<TextField placeholder="What do you want to share?"></TextField>
 					</section>
-					<Announcement></Announcement>
+					<Announcement
+						url="http://howlr.me"
+						author="Cesar"
+						team="Onboarding"
+						time="12 hours ago"
+						label="Official"
+						title="Jaanilaupäev ja Jaanipäev - Midsummer's Eve and Day 🔥"
+						article="Just for your information, Sunday 23rd June and Monday 24th June are national holidays in Estonia due to Midsummer's Celebrations. Verification team works as usual according to their schedules, for everyone else, these are days off. 25th June is a normal working day again."
+					></Announcement>
 				</div>
 				<div className={style.sidebar}></div>
 			</div>

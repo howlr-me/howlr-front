@@ -37,6 +37,13 @@ h1 {
 	text-transform: lowercase;
 }
 
+h2 {
+	color: var(--howlr-color-main);
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
+}
+
 h4 {
 	font-size: 12px;
 	line-height: 24px;
@@ -69,6 +76,13 @@ code {
 a {
 	text-decoration: none;
 	transition: 0.4s;
+	color: var(--howlr-color-primary);
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--howlr-color-main);
 }
 
 *::placeholder {
