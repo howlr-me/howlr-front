@@ -6,6 +6,8 @@ import Menu from './Menu';
 import TextField from './components/TextField/TextField';
 import Announcement from './components/Post/Announcement';
 
+document.title = 'Wolfpack : Howlr';
+
 const App: React.FC = () => {
 	return (
 		<div className={style.App}>
