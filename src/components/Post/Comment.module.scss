@@ -1,0 +1,44 @@
+.commentContainer {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+	align-items: flex-start;
+}
+
+.commentBlock {
+	margin-left: 16px;
+
+	& .authorName {
+		font-size: 16px;
+		font-weight: 600;
+		line-height: 24px;
+		color: var(--howlr-color-main);
+		display: inline-block;
+		float: left;
+
+		& a {
+			color: var(--howlr-color-main);
+
+			&:hover {
+				color: var(--howlr-color-primary);
+			}
+		}
+	}
+
+	& .time {
+		font-size: 12px;
+		line-height: 24px;
+		color: var(--howlr-color-light);
+		float: left;
+		margin-left: 8px;
+
+		&::before {
+			content: ' • ';
+		}
+	}
+
+	& .comment {
+		font-size: 14px;
+		clear: both;
+	}
+}
