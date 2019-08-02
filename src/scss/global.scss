@@ -1,76 +1,93 @@
 // COLORS
 :root {
 	// Main
-	--howlr-color-main: #5E0FDD;
-	--howlr-color-mid: #667892;
-	--howlr-color-light: #C2C9D4;
-	--howlr-color-ghost: #E5E9EE;
-	--howlr-color-fog: #F4F7F9;
-
-	--howlr-color-burgundy: #2F1847;
-	--howlr-color-burgundy-strong: #714768;
-	--howlr-color-burgundy-light: #A0859B;
-	--howlr-color-burgundy-fog: #F7F6F9;
+	--howlr-color-primary: #5e0fdd;
+	--howlr-color-primary-08: #f3ecfd;
+	--howlr-color-main: #2f1847;
+	--howlr-color-strong: #714768;
+	--howlr-color-light: #a0859b;
+	--howlr-color-ghost: #d2c7d0;
+	--howlr-color-soul: #ece8ed;
+	--howlr-color-fog: #f7f6f9;
+	--howlr-color-white: #ffffff;
 }
 
 // FONTS
 @font-face {
-    font-family: "Grafier";
-    font-weight: normal;
-    font-style: normal;
-    src: url("./fonts/Grafier-RegularDisplay.otf") format("opentype");
+	font-family: 'Grafier';
+	font-weight: normal;
+	font-style: normal;
+	src: url('./fonts/Grafier-RegularDisplay.otf') format('opentype');
 }
 
 @font-face {
-    font-family: "Grafier";
-    font-weight: bold;
-    font-style: normal;
-    src: url("./fonts/Grafier-BlackDisplay.otf") format("opentype");
+	font-family: 'Grafier';
+	font-weight: bold;
+	font-style: normal;
+	src: url('./fonts/Grafier-BlackDisplay.otf') format('opentype');
+}
+
+:root {
+	--howlr-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	--howlr-font-title: 'Grafier';
 }
 
 // HEADERS
 h1 {
-	font-family: "Grafier";
+	font-family: var(--howlr-font-title);
 	font-size: 40px;
 	line-height: 48px;
-	color: var(--howlr-color-burgundy);
+	color: var(--howlr-color-main);
 	margin-top: 0;
 	text-transform: lowercase;
+}
+
+h2 {
+	color: var(--howlr-color-main);
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 600;
 }
 
 h4 {
 	font-size: 12px;
 	line-height: 24px;
-	text-transform: uppercase;;
-	color: var(--howlr-color-burgundy-light);
+	text-transform: uppercase;
+	color: var(--howlr-color-light);
 	font-weight: 600;
+	margin: 0 0 8px 0;
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	font-family: var(--howlr-font-family);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	box-sizing: border-box;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 a {
 	text-decoration: none;
 	transition: 0.4s;
+	color: var(--howlr-color-primary);
+}
+
+p {
+	font-size: 16px;
+	line-height: 24px;
+	color: var(--howlr-color-main);
 }
 
 *::placeholder {

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 56.2 (81672) - https://sketch.com -->
+    <title>icon-emoji</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12.5,9 C11.67,9 11,8.33 11,7.5 C11,6.67 11.67,6 12.5,6 C13.33,6 14,6.67 14,7.5 C14,8.33 13.33,9 12.5,9 Z M7.5,9 C6.67,9 6,8.33 6,7.5 C6,6.67 6.67,6 7.5,6 C8.33,6 9,6.67 9,7.5 C9,8.33 8.33,9 7.5,9 Z M10,15.5 C7.67,15.5 5.69,14.04 4.89,12 L15.11,12 C14.31,14.04 12.33,15.5 10,15.5 Z M17,5 L17,7.99 C17,7.99 15.01,8 15,7.99 L15,5 L12,5 C12,5 12.01,3.01 12,3 L15,3 L15,4.04121181e-14 L17,4.04121181e-14 L17,3 L20,3 L20,5 L17,5 Z M13.3384349,0.587651487 L12.6615651,2.46963109 C11.7880402,2.1554605 10.9229448,2 10,2 C5.581722,2 2,5.581722 2,10 C2,14.418278 5.581722,18 10,18 C14.418278,18 18,14.418278 18,10 C18,9.0833294 17.8428769,8.17243738 17.544956,7.33527128 L19.4291993,6.66472872 C19.8037552,7.71724129 20,8.85493441 20,10 C20,15.5228475 15.5228475,20 10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 C11.1572923,0 12.2509807,0.196539404 13.3384349,0.587651487 Z" id="path-1"></path>
+    </defs>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon/emoji">
+            <g transform="translate(2.000000, 2.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <use id="Combined-Shape" fill="#667892" fill-rule="nonzero" xlink:href="#path-1"></use>
+                <g id="color/grey" mask="url(#mask-2)" fill="#667892">
+                    <g transform="translate(-2.000000, -2.000000)" id="color">
+                        <rect x="0" y="0" width="24" height="24"></rect>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

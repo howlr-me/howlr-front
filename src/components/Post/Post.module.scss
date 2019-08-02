@@ -1,0 +1,53 @@
+.post {
+	background: var(--howlr-color-white);
+	border: 1px solid var(--howlr-color-soul);
+	box-shadow: 0 4px 8px 0 rgba(0, 30, 73, 0.04);
+	border-radius: 4px;
+	max-width: 560px;
+
+	& .postContent {
+		padding: 24px 24px 8px 24px;
+	}
+
+	& form {
+		padding: 0;
+		margin: 0;
+	}
+
+	& fieldset {
+		margin: 0;
+		padding: 0;
+		border: 0;
+		position: relative;
+	}
+
+	& legend {
+		display: none;
+	}
+
+	& .emojiButton {
+		position: absolute;
+		right: 24px;
+		top: 16px;
+		fill: green;
+	}
+
+	& textarea {
+		margin: 0;
+		border: 0;
+		background: transparent;
+		vertical-align: middle;
+		overflow: auto;
+		outline: none;
+		width: 100%;
+		-webkit-box-shadow: none;
+		-moz-box-shadow: none;
+		box-shadow: none;
+		border-top: 1px solid var(--howlr-color-soul);
+		font-size: 14px;
+		line-height: 24px;
+		padding: 16px 56px 16px 24px;
+		resize: none;
+		height: 56px;
+	}
+}

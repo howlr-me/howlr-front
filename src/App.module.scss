@@ -4,10 +4,6 @@
 	min-height: 100vh;
 }
 
-.header {
-	flex-grow: 1;
-}
-
 .container {
 	flex-grow: 2;
 	align-content: stretch;
@@ -15,13 +11,18 @@
 	justify-content: space-between;
 }
 
-.menu {
-	flex-grow: 1;
-}
-
 .content {
 	flex-grow: 2;
 	padding: 32px;
+}
+
+.newPost {
+	width: 100%;
+	max-width: 560px;
+	margin-bottom: 32px;
+}
+.newPost input {
+	width: 100%;
 }
 
 .sidebar {

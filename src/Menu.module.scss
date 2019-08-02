@@ -1,5 +1,5 @@
 .menu {
-	background: var(--howlr-color-burgundy-fog);
+	background: var(--howlr-color-fog);
 	padding: 32px 24px;
 	width: 240px;
 	border-right: 1px solid rgba(#714768, .08);
@@ -20,13 +20,13 @@
 }
 
 .menu ul li a {
-	color: var(--howlr-color-burgundy-strong);
+	color: var(--howlr-color-strong);
 	font-size: 14px;
 	line-height: 24px;
 	margin-bottom: 8px;
 	text-transform: lowercase;
 	display: block;
 	&:hover {
-		color: var(--howlr-color-burgundy);
+		color: var(--howlr-color-main);
 	}
 }

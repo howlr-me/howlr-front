@@ -1,0 +1,23 @@
+.input {
+	line-height: 24px;
+	margin: 0;
+	padding: 8px 16px;
+	color: var(--howlr-color-main);
+	border-radius: 4px;
+	background-color: var(--howlr-color-fog);
+	border: 1px solid transparent;
+	font-size: 14px;
+	transition: 0.2s;
+
+	&:hover {
+		border-color: rgba(#714768, 0.16);
+	}
+
+	&:focus {
+		outline: none;
+		border-color: rgba(#714768, 0.4);
+		background-color: var(--howlr-color-white);
+		box-shadow: 0 4px 8px rgba(#2f1847, 0.08);
+		transform: translateY(-2px);
+	}
+}

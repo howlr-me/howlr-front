@@ -1,0 +1,17 @@
+.announContainer {
+	& h2 a {
+		color: var(--howlr-color-main);
+		&:hover {
+			color: var(--howlr-color-primary);
+		}
+	}
+
+	& img {
+		max-width: 100%;
+		border-radius: 4px;
+	}
+
+	& p {
+		margin-bottom: 24px;
+	}
+}
