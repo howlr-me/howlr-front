@@ -27,9 +27,15 @@
 	src: url('./fonts/Grafier-BlackDisplay.otf') format('opentype');
 }
 
+:root {
+	--howlr-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+		'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	--howlr-font-title: 'Grafier';
+}
+
 // HEADERS
 h1 {
-	font-family: 'Grafier';
+	font-family: var(--howlr-font-title);
 	font-size: 40px;
 	line-height: 48px;
 	color: var(--howlr-color-main);
@@ -55,8 +61,7 @@ h4 {
 
 body {
 	margin: 0;
-	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
-		'Droid Sans', 'Helvetica Neue', sans-serif;
+	font-family: var(--howlr-font-family);
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }

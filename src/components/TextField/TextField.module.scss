@@ -7,17 +7,17 @@
 	background-color: var(--howlr-color-fog);
 	border: 1px solid transparent;
 	font-size: 14px;
-	transition: .4s;
+	transition: 0.2s;
 
 	&:hover {
-		border-color: rgba(#714768, .16);
+		border-color: rgba(#714768, 0.16);
 	}
 
 	&:focus {
 		outline: none;
-		border-color: rgba(#714768, .4);
+		border-color: rgba(#714768, 0.4);
 		background-color: var(--howlr-color-white);
-		box-shadow: 0 4px 8px rgba(#2F1847, .08);
+		box-shadow: 0 4px 8px rgba(#2f1847, 0.08);
 		transform: translateY(-2px);
 	}
 }

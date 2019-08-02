@@ -8,6 +8,7 @@ import Post from './components/Post/Post';
 import Author from './components/Author/Author';
 import Announcement from './components/Post/Announcement';
 import Comment from './components/Post/Comment';
+import Button from './components/Button/Button';
 
 document.title = 'Wolfpack : Howlr';
 
@@ -44,6 +45,7 @@ const App: React.FC = () => {
 							comment="I really like this idea. It's the first time I will have an actual Estonia holiday to celebrate and I'm excited about it."
 						></Comment>
 					</Post>
+					<Button variant="fog">Add new</Button>
 				</div>
 				<div className={style.sidebar}></div>
 			</div>
