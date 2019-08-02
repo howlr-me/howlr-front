@@ -92,11 +92,11 @@
 
 .fog {
 	composes: btn;
-	background-color: white;
+	background-color: transparent;
 	color: var(--howlr-color-primary);
 
 	&:disabled {
-		background-color: white;
+		background-color: transparent;
 		color: var(--howlr-color-ghost);
 	}
 
