@@ -1,0 +1,32 @@
+.emotion {
+	font-size: 12px;
+	font-weight: 600;
+	line-height: 16px;
+	padding: 3px 8px 2px 4px;
+	border-radius: 40px;
+	display: inline-block;
+	max-height: 24px;
+	background-color: var(--howlr-color-fog);
+	color: var(--howlr-color-strong);
+	transition: 0.4s;
+	border: 1px solid transparent;
+	box-sizing: border-box;
+
+	&:hover {
+		background-color: var(--howlr-color-primary-08);
+		cursor: pointer;
+		color: var(--howlr-color-primary);
+	}
+
+	&:active,
+	&.selected {
+		background-color: var(--howlr-color-primary-08);
+		border-color: var(--howlr-color-primary);
+		color: var(--howlr-color-primary);
+	}
+
+	& > :first-child {
+		margin-right: 4px;
+		float: left;
+	}
+}
